@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WeatherData.h"
 
 @interface WeatherDetailViewController : UIViewController
+
+@property (nonatomic, strong) WeatherData *data;
 
 @end

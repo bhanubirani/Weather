@@ -32,6 +32,7 @@
 		2F64284C1B5F4CEC00586A1F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64283B1B5F4CEC00586A1F /* UIWebView+AFNetworking.m */; };
 		2F64284F1B5F4D3C00586A1F /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64284E1B5F4D3C00586A1F /* LandingViewController.m */; };
 		2F6428521B5F4D4E00586A1F /* WeatherDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6428511B5F4D4E00586A1F /* WeatherDetailViewController.m */; };
+		2F6428551B5F502A00586A1F /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6428541B5F502A00586A1F /* WeatherData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		2F64284E1B5F4D3C00586A1F /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
 		2F6428501B5F4D4E00586A1F /* WeatherDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetailViewController.h; sourceTree = "<group>"; };
 		2F6428511B5F4D4E00586A1F /* WeatherDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetailViewController.m; sourceTree = "<group>"; };
+		2F6428531B5F502A00586A1F /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		2F6428541B5F502A00586A1F /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				2F6427FC1B5F402B00586A1F /* Images.xcassets */,
 				2F6427FE1B5F402B00586A1F /* LaunchScreen.xib */,
 				2F6427EF1B5F402B00586A1F /* Supporting Files */,
+				2F6428531B5F502A00586A1F /* WeatherData.h */,
+				2F6428541B5F502A00586A1F /* WeatherData.m */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				2F64284B1B5F4CEC00586A1F /* UIRefreshControl+AFNetworking.m in Sources */,
 				2F64284C1B5F4CEC00586A1F /* UIWebView+AFNetworking.m in Sources */,
 				2F64283E1B5F4CEC00586A1F /* AFHTTPSessionManager.m in Sources */,
+				2F6428551B5F502A00586A1F /* WeatherData.m in Sources */,
 				2F6428471B5F4CEC00586A1F /* UIAlertView+AFNetworking.m in Sources */,
 				2F6428421B5F4CEC00586A1F /* AFURLRequestSerialization.m in Sources */,
 				2F6428451B5F4CEC00586A1F /* AFNetworkActivityIndicatorManager.m in Sources */,
